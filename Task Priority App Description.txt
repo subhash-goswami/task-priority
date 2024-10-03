@@ -1,0 +1,81 @@
+Task Priority App
+Description: Build an app to manage tasks with varying priority levels (e.g., low, medium, high). 
+
+Note: This task will help you learn how to group and filter data based on different criteria and will reinforce your understanding of CRUD operations with a bit of added complexity.
+Backend (Django):
+Create a Django model for Task with fields: title, description, priority (e.g., low, medium, high), and due_date.
+Implement API endpoints for:
+Listing tasks based on priority
+Adding a new task
+Editing a task's priority
+Deleting a task
+Frontend (React.js):
+Create a form for adding new tasks with priority selection.
+Display tasks grouped by priority (low, medium, high).
+Implement functionality to edit or delete tasks.
+
+
+
+
+
+pyhon
+
+Python Backend Development List:
+
+→Framework: Use Django or Flask for the backend.
+→API Routes:
+- Set up RESTful API routes using Django REST Framework (DRF) or Flask with appropriate routing and views.
+- Implement dynamic endpoints for handling different types of data, ensuring scalability.
+→Validation: Add input validation and sanitization to protect against vulnerabilities.
+→Error Handling: Ensure error handling is in place for all routes, with custom error messages for common scenarios (e.g., 404, 500).
+→Authentication: Secure API with JWT or OAuth.
+→Database: Use PostgreSQL or SQLite database models with necessary relationships (e.g., One-to-Many, Many-to-Many) using ORM (Django ORM or SQLAlchemy).
+→Implement Celery or a similar task queue for handling background jobs (e.g., email scheduling, task automation).
+→Testing: Write unit tests for API endpoints using unittest or pytest.
+→Deployment: Use Docker for easy deployment, and include a requirements.txt for dependencies.
+
+Notes:
+- Use environment variables with a .env file to manage sensitive data like API keys, database credentials, etc.
+- Provide detailed documentation with setup instructions, API routes, and response examples in a README.md file. also, create an API endpoints collection for frontend and testing.
+- Ensure compatibility with Python 3.8 or above and mention required packages in requirements.txt.
+
+
+
+
+
+React + Next js ---- 
+
+Below things need to follow
+1 or 2 page site with Matrial UI.
+Api Routs, Daynamic Routs
+Need to use Redux for statmanagement 
+SAAS / SCSS
+React with custom Hooks
+Need to use TypeScript with proper implmenttantion
+Error Handling
+Frontend Unit test
+Mobile responsive is plus point
+Use forms / Grid, Also implement dynamic data
+Everything will commented and well formatted
+Deployment will be easy like ( Yarn start dev ) or something easy
+Use memo, Hooks, Use callback also Data optimize should be implement
+Also implement Higher-order components (HOCs) 
+SSG (static site generation), SSR (server-side rendering)
+
+→ Create proper text file with small description of demo. 
+→ Need to mention technology used in Demo
+→ Create .Readme file with proper steps, Also place images or video necessary
+→ Create  .env file and set environment variable based on your needs
+
+Notes.
+Need to mention node Verizon support between version.. As which version need to run app
+Next js.. Once u run build first time it will take some times.. 
+Else you can first build and then run. 
+Npm outdated
+Npx depcheck
+Need to check all things. 
+File naming convention should be small. With desh.. 
+Rather then setcurrent data and getcurrent..  Slice me jo method name will not identify as end user. Easy to understand. 
+Naming convention should be based on.. 
+Validation. Need to set overshtere
+
